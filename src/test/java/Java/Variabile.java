@@ -31,8 +31,8 @@ public class Variabile
 
     public void Mananca(){
         // Atribuim valori pentru variabilele de mai sus
-        Nume = "Dinu";
-        Prenume = "Mihaila";
+        Nume = "Mihaila";
+        Prenume = "Dinu";
         Varsta = 57;
         Inaltime = 1.86;
 
@@ -40,12 +40,19 @@ public class Variabile
 
         System.out.print(Nume + " ");
         System.out.println(Prenume + " ");
-        System.out.println("varsta este de  "  + Varsta + " ani");
-        System.out.println("inaltimea este = " + Inaltime);
+        System.out.println("varsta mea este de "  + Varsta + " ani");
+        System.out.println("inaltimea este de " + Inaltime + " cm");
+
+        System.out.println(" ");
 
         System.out.println(Nume + " " + Prenume);
 
-        System.out.print("inaltimea mea este de: " + Inaltime);
+        System.out.println(" ");
+
+        System.out.print("inaltimea mea este de: " + Inaltime + " cm");
+
+        System.out.println(" ");
+        System.out.println(" ");
 
 
 
