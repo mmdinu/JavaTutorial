@@ -76,4 +76,9 @@ public class Cursant {
         System.out.println( " inaltimea este de " + VariabilaLocala + " cm");
     }
 
+
+
+
+    
+
 }
