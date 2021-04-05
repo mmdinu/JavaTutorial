@@ -54,12 +54,14 @@ public class Variabile
         System.out.println(" ");
         System.out.println(" ");
 
+        // hear som quick exercise from HomeWork
+
+        System.out.println ("Salut" + "M");
 
 
 
 
+            }
+        }
 
-    }
 
-
-}
