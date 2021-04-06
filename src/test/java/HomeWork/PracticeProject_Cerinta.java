@@ -2,6 +2,9 @@ package HomeWork;
 
 import org.junit.Test;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 
 public class PracticeProject_Cerinta {
 
@@ -20,15 +23,13 @@ public class PracticeProject_Cerinta {
     //  Marti/Joi
     public int Exercitiul; // Cat face [2+(3*4)-3]/3 ?
 
-    public Double A;
-
-    public String Rezultatul; // Rezultatul corect este: {rezultatul}
+    //public String Rezultatul; // Rezultatul corect este: {rezultatul}
 
     public Integer Suma3NrDuble; // afiseaza pe ecran suma a 3 numere double intr-o variabila de acelasi tip +mesaj
 
     public Integer Produsul2Nr; // afiseaza pe ecran produsu a 2 numere integer intr-o variabila de acelasi tip+mesaj
 
-    public String MesajRez; // concateneaza la valoarile rezultate de mai sus mesajul "Stiu ca am calculat bine" si
+    //public String MesajRez; // concateneaza la valoarile rezultate de mai sus mesajul "Stiu ca am calculat bine" si
     // afiseaza-l pe ecran cu tot cu rezultatul calculului
 
     public String Salut; // Adauga la "Salut"
@@ -41,8 +42,8 @@ public class PracticeProject_Cerinta {
     public String AnaCuMere; //Adauga la "Ana are mere,pere,prune"
     public String Zet; // dupa fiecare vocala de la final caracterul "Z"
 
-    public Integer Cerinta; // Comenteaza cerinta 2 4 6
-    public Integer Cerintele; // Decomenteaza cerintele comentate???
+    //public Integer Cerinta; // Comenteaza cerinta 2 4 6
+    //public Integer Cerintele; // Decomenteaza cerintele comentate???
     public String TextLaRez; // Adauga la toate rezultatele obtinute:
     // " Poti pleca acasa dupa ce iti verific munca!"
 
@@ -68,6 +69,14 @@ public class PracticeProject_Cerinta {
         System.out.println ( Date + TextLaRez);
         System.out.println ( Our + TextLaRez);
         System.out.println ( Day + TextLaRez);
+        // sau:
+        LocalDateTime current = LocalDateTime.now ();
+        System.out.println ("Data si ora curenta este: " + current);
+
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS");
+        String formatted = current.format(formatter);
+
+        System.out.println("Data si ora curenta este: " + formatted);
 
 
         Exercitiul = (2+(3*4)-3)/3;
