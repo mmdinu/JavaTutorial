@@ -52,16 +52,13 @@ public class Variabile
         System.out.print("inaltimea mea este de: " + Inaltime + " cm");
 
         System.out.println(" ");
-        System.out.println(" ");
+
+
 
         // hear som quick exercise from HomeWork
 
-        System.out.println ("Salut" + "M");
 
-
-
-
-            }
-        }
+    }
+}
 
 

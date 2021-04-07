@@ -1,14 +1,13 @@
-package Homework;
+package HomeWork;
 
 import org.junit.Test;
 
-import javax.xml.crypto.Data;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-public class Variables {
+public class VariablesWorkDiana {
 
     public Integer Varsta;
     public String Nume;
@@ -91,10 +90,14 @@ public class Variables {
         Ora = OraDorita;
         Ziua = ZiuaDorita;
 
-        // System.out.println(" Care ii data de astazi? ");
-        // System.out.println(" Data este " + Data);
-        // System.out.println(" Ora este " + Ora);
-        // System.out.println(" Ne aflam in ziua de " + Ziua);
+
+
+         System.out.println(" Care ii data de astazi? ");
+         System.out.println(" Data este " + Data);
+         System.out.println(" Ora este " + Ora);
+         System.out.println(" Ne aflam in ziua de " + Ziua);
+
+
 
         System.out.println(" Care ii data de astazi? " + Data + Ora + Ziua);
         System.out.println(" Poti pleca acasa dupa ce iti verific munca! "); // 13
@@ -137,29 +140,25 @@ public class Variables {
 
 
 
- /*   public static class Main {
+    public static class Main {
         public static void main(String[] args) {
-//Initializing the date formatter
+            //Initializing the date formatter
             DateFormat Date = DateFormat.getDateInstance();
-//Initializing Calender Object
+            //Initializing Calender Object
             Calendar cals = Calendar.getInstance();
-//Displaying the actual date
+            //Displaying the actual date
             System.out.println("The original Date: " + cals.getTime());
-//Using format() method for conversion
+            //Using format() method for conversion
             String currentDate = Date.format(cals.getTime());
             System.out.println("Formatted Date: " + currentDate);
         }
     }
 
-  */
 
-   /* public static class Main {
-        public static void main(String[] args) {
+    public static void main(String[] args) {
             Date date = new Date();
             SimpleDateFormat DateFor = new SimpleDateFormat("dd/MM/yyyy");
             String stringDate= DateFor.format(date);
             System.out.println(stringDate);
-        }
     }
-    */
 }

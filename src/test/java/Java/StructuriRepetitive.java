@@ -57,8 +57,11 @@ public class StructuriRepetitive {
         // o alta metoda pentru for:
                 // for ( String s : ListaNume ) {
                      //  System.out.println ( s );
-        for (int index = 0; index<ListaNume.size(); index++){
-            System.out.println(ListaNume.get(index));
+        // sau    for (int index = 0; index<ListaNume.size(); index++){
+        //            System.out.println(ListaNume.get(index));
+        //            System.out.println ();
+        for ( String s : ListaNume ) {
+            System.out.println ( s );
             System.out.println ();
         }
     }

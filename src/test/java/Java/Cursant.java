@@ -1,8 +1,6 @@
 package Java;
 
-import org.junit.AfterClass;
 import org.junit.Test;
-import org.openqa.selenium.support.ui.UnexpectedTagNameException;
 
 public class Cursant {
 
@@ -48,7 +46,6 @@ public class Cursant {
 
     public void PrintPrenume(){
 
-        System.out.println(" ");
         System.out.println("prenumele actual este " + prenume);
         prenume = "Alex";
         System.out.println("noul prenumele este " + prenume);
@@ -75,10 +72,9 @@ public class Cursant {
     public void  PrintInaltime(double ValoareInaltime){
 
 
-        double VariabilaLocala = ValoareInaltime;
+        // se poate si: double VariabilaLocala = ValoareInaltime;
 
-        System.out.println ();
-        System.out.println( "inaltimea este de " + VariabilaLocala + " cm");
+        System.out.println( "inaltimea este de " + ValoareInaltime + " cm");
     }
 
 

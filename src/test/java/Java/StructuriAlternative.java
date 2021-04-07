@@ -27,5 +27,10 @@ public class StructuriAlternative {
         if (numar < 5) {
             System.out.println("Numarul " + numar + " este mai mic decat 5");
         }
+
     }
+    // verificam daca o propozitie contine un amnumit cuvant
+    
+
+
 }

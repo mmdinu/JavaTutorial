@@ -42,8 +42,6 @@ public class PracticeProject_Cerinta {
     public String AnaCuMere; //Adauga la "Ana are mere,pere,prune"
     public String Zet; // dupa fiecare vocala de la final caracterul "Z"
 
-    //public Integer Cerinta; // Comenteaza cerinta 2 4 6
-    //public Integer Cerintele; // Decomenteaza cerintele comentate???
     public String TextLaRez; // Adauga la toate rezultatele obtinute:
     // " Poti pleca acasa dupa ce iti verific munca!"
 
@@ -82,7 +80,7 @@ public class PracticeProject_Cerinta {
         Exercitiul = (2+(3*4)-3)/3;
         System.out.println ("Rezultatul simplu integer este: " + Exercitiul + TextLaRez); // obligatoriu in integer! de ce?
 
-        PrintExercitiul ( (2+(3*4)-3)/3);
+        PrintExercitiul ( (2+(3*4)-3)/3.0f);
 
         PrintA (4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11))); // un calcul complex! OK!
 
@@ -90,15 +88,12 @@ public class PracticeProject_Cerinta {
 
 public void PrintExercitiul(double ValoareExercitiul){
 
-        double VariabilaLocala = ValoareExercitiul;
-        System.out.println ("Rezultatul corect este: " + VariabilaLocala + TextLaRez); // in double de ce nu rezulta 3,66666666?
+    System.out.println ("Rezultatul corect este: " + ValoareExercitiul + TextLaRez); // in double de ce nu rezulta 3,66666666?
 
 }
 public void PrintA(double ValoareA){
 
-        double VariabilaA = ValoareA;
-
-        System.out.println (VariabilaA);
+    System.out.println ( ValoareA );
 
 
         Suma3NrDuble = ( 2 + 4 + 8 );
