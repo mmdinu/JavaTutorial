@@ -4,19 +4,18 @@ import org.junit.Test;
 
 public class Cursant {
 
-    // Variabilele sunt de mai multe tipuri:
-    // globale( la nivel de clasa) si locale(la nivel de metoda)
+// Variabilele sunt de mai multe tipuri:
+// globale( la nivel de clasa) si locale(la nivel de metoda)
 
     public String nume = "Mihaila";
     public String prenume = "Dinu";
     public int varsta;
 
-    @Test
-    //Metoda de test(test automat)
-
+    @Test   //Metoda de test(test automat)
     public void TestAutomat(){
-        //Apelam metoda PrintInformatii()
-        // Metoda - intre {}
+
+//Apelam metoda PrintInformatii()
+// Metoda - intre {}
 
         PrintInformatii();
         PrintNume();
@@ -29,7 +28,8 @@ public class Cursant {
         PrintInaltime(1.70);
 
     }
-    // Facem o metoda prin care printam informatiile despre un cursant
+
+// Facem o metoda prin care printam informatiile despre un cursant
 
     public void PrintInformatii(){
 
@@ -54,10 +54,12 @@ public class Cursant {
 
     public void  PrintVarsta(int ValoareVarsta, String ValoareNume ){
 
-        // Metodele pot sau nu sa contina parametri.
-        // Putem avea unul sau mai multi parametri
-        // Parametri trebuie sa se diferentieze prin tip sau nume
-        // Parametri se declara in interiorul parantezelor
+        /*
+         Metodele pot sau nu sa contina parametri.
+         Putem avea unul sau mai multi parametri
+         Parametri trebuie sa se diferentieze prin tip sau nume
+         Parametri se declara in interiorul parantezelor
+        */
 
         varsta = ValoareVarsta;
         nume = ValoareNume;
@@ -71,10 +73,11 @@ public class Cursant {
 
     public void  PrintInaltime(double ValoareInaltime){
 
-
-        // se poate si: double VariabilaLocala = ValoareInaltime;
-
         System.out.println( "inaltimea este de " + ValoareInaltime + " cm");
+
+// se poate si: double VariabilaLocala = ValoareInaltime;
+
+
     }
 
 

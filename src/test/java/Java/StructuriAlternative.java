@@ -13,11 +13,12 @@ public class StructuriAlternative {
 
     }
 
-    // Verificam daca un numar este mai mare ca 5
+// Verificam daca un numar este mai mare ca 5
     public void VerificaNrMaiMareCa5(int numar){
 
-        //If (conditie1, conditie2, ...) then ...
-        //                               else ...
+//If (conditie1, conditie2, ...) then ...
+        //                       else ...
+
         if (numar == 5) {
             System.out.println("Numarul " + numar + " este egal cu 5");
         }
@@ -29,7 +30,7 @@ public class StructuriAlternative {
         }
 
     }
-    // verificam daca o propozitie contine un amnumit cuvant
+// verificam daca o propozitie contine un amnumit cuvant
     
 
 

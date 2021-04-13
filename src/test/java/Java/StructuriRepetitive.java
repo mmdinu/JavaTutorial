@@ -1,7 +1,6 @@
 package Java;
 
 import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,21 +19,27 @@ public class StructuriRepetitive {
     // printam primele 10 nr
     public void PrintNumere(){
 
-        // facem aceasta cerinta cu for
+// facem aceasta cerinta cu for
         // cele mai intalnite structuri repetitive este for si while
+
         for (int index = 0; index<11; index++ ){
             System.out.println(index);
         }
     }
 
-    // parcurgem un vector de stringuri cu for si interactionam cu el
+// parcurgem un vector de stringuri cu for si interactionam cu el
+
     public void VectorString(){
 
-        // declaram un vector=array de stringuri
-        // un array trebuie sa primeasca la inceput o dimensiune maxima
-        // daca definim mai multe elemente decat dimensiunea maxima rezulta eroare
-        // daca vrem sa adaugam mai multe elemente decat dimensiunea maxima => modificam dimensiunea array-ului[]
+        /*
+        declaram un vector=array de stringuri
+        un array trebuie sa primeasca la inceput o dimensiune maxima
+        daca definim mai multe elemente decat dimensiunea maxima rezulta eroare
+        daca vrem sa adaugam mai multe elemente decat dimensiunea maxima => modificam dimensiunea array-ului[]
+        */
+
         String[] ListaNume = new String[4]; // exemplu de reference tip, vector de 3 elemente
+
         ListaNume[0] = "Diana";
         ListaNume[1] = "Alex";
         ListaNume[2] = "Dorel";
@@ -44,34 +49,44 @@ public class StructuriRepetitive {
         }
     }
 
-    // parcurgem o lista de stringuri cu for si interactionam cu el
+// parcurgem o lista de stringuri cu for si interactionam cu el
+
     public void ListaString(){
 
-        // declaram o lista de stringuri
-        // lista este mult mai ok de folosit daca nu avem o multime fixa de valori
+// declaram o lista de stringuri
+// lista este mult mai ok de folosit daca nu avem o multime fixa de valori
+
         List<String> ListaNume = new ArrayList<>();
         ListaNume.add("Diana");
         ListaNume.add("Alex");
         ListaNume.add("Dorel");
         ListaNume.add("Ana");
-        // o alta metoda pentru for:
-                // for ( String s : ListaNume ) {
-                     //  System.out.println ( s );
-        // sau    for (int index = 0; index<ListaNume.size(); index++){
-        //            System.out.println(ListaNume.get(index));
-        //            System.out.println ();
+
+        /*
+        o alta metoda pentru for:
+        for ( String s : ListaNume ) {
+        System.out.println ( s );
+        sau    for (int index = 0; index<ListaNume.size(); index++){
+        System.out.println(ListaNume.get(index));
+        System.out.println ();
+        */
+
         for ( String s : ListaNume ) {
             System.out.println ( s );
             System.out.println ();
         }
     }
 
-    // parcurgem o lista de stringuri cu while si interactionam cu el
+// parcurgem o lista de stringuri cu while si interactionam cu el
+
     public void ListaStringWhile(){
 
-        // declaram o lista de stringuri
-        // lista este mult mai ok de folosit daca nu avem o multime fixa de valori
-        // loop = structuri repetitive
+        /*
+        declaram o lista de stringuri
+        lista este mult mai ok de folosit daca nu avem o multime fixa de valori
+        loop = structuri repetitive
+        */
+
         List<String> ListaNume = new ArrayList<>();
         ListaNume.add("Diana");
         ListaNume.add("Alex");

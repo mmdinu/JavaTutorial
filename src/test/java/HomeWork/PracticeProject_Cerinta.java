@@ -8,7 +8,7 @@ import java.time.format.DateTimeFormatter;
 
 public class PracticeProject_Cerinta {
 
-    // For every lines is declare new variables
+// For every lines is declare new variables
 
     public String Mesaj; // Hello World
     public Integer VarstaMea; // Varsta ta (numar)
@@ -17,23 +17,26 @@ public class PracticeProject_Cerinta {
     public String Date; // current date, with day/mount/yer,
     public String Our; // our:minutes PM/AM,
     public String Day; // day in Text
-    // (Tot) Care ii data de astazi?
-    //  1/13/2019
-    //  18:30 PM
-    //  Marti/Joi
+
+    /* (Tot)
+    Care ii data de astazi?
+    1/13/2019
+    18:30 PM
+    Marti/Joi*/
+
     public int Exercitiul; // Cat face [2+(3*4)-3]/3 ?
 
-    //public String Rezultatul; // Rezultatul corect este: {rezultatul}
+//public String Rezultatul; // Rezultatul corect este: {rezultatul}
 
     public Integer Suma3NrDuble; // afiseaza pe ecran suma a 3 numere double intr-o variabila de acelasi tip +mesaj
 
     public Integer Produsul2Nr; // afiseaza pe ecran produsu a 2 numere integer intr-o variabila de acelasi tip+mesaj
 
-    //public String MesajRez; // concateneaza la valoarile rezultate de mai sus mesajul "Stiu ca am calculat bine" si
-    // afiseaza-l pe ecran cu tot cu rezultatul calculului
+//public String MesajRez; // concateneaza la valoarile rezultate de mai sus mesajul "Stiu ca am calculat bine" si
+// afiseaza-l pe ecran cu tot cu rezultatul calculului
 
     public String Salut; // Adauga la "Salut"
-    // caracterul "M" la final
+// caracterul "M" la final
     public String Caracter;
 
     public String Hello; // Adauga la "Hello"
@@ -43,7 +46,7 @@ public class PracticeProject_Cerinta {
     public String Zet; // dupa fiecare vocala de la final caracterul "Z"
 
     public String TextLaRez; // Adauga la toate rezultatele obtinute:
-    // " Poti pleca acasa dupa ce iti verific munca!"
+// " Poti pleca acasa dupa ce iti verific munca!"
 
     @Test
     public void ExecutaTema(){
@@ -86,14 +89,14 @@ public class PracticeProject_Cerinta {
 
     }
 
-public void PrintExercitiul(double ValoareExercitiul){
+    public void PrintExercitiul(double ValoareExercitiul){
 
-    System.out.println ("Rezultatul corect este: " + ValoareExercitiul + TextLaRez); // in double de ce nu rezulta 3,66666666?
+        System.out.println ("Rezultatul corect este: " + ValoareExercitiul + TextLaRez); // in double de ce nu rezulta 3,66666666?
 
 }
-public void PrintA(double ValoareA){
+    public void PrintA(double ValoareA){
 
-    System.out.println ( ValoareA );
+        System.out.println ( ValoareA );
 
 
         Suma3NrDuble = ( 2 + 4 + 8 );
@@ -102,7 +105,8 @@ public void PrintA(double ValoareA){
         Produsul2Nr = (4 * 8);
         System.out.println ("Produsul celor doua numere, respectiv 4 si 8 este de: " + Produsul2Nr + TextLaRez);
 
-        // Stiu ca am calculat bine!
+// Stiu ca am calculat bine!
+
         System.out.println ("Stiu ca am calculat bine cele doua exercitii! " + Suma3NrDuble +" si "+ Produsul2Nr + TextLaRez);
 
         Salut = "Salut";
@@ -113,9 +117,10 @@ public void PrintA(double ValoareA){
         Has = "H";
         System.out.println (Has + Hello + TextLaRez);
 
+        System.out.println();
 
+// vocale: a, e, i, o, u.
 
-        // vocale: a, e, i, o, u.
         AnaCuMere = "Ana are mere, pere, prune";
         Zet = "Z";
         System.out.println ("Ana" + Zet + " are" + Zet + " mere" + Zet + ", pere" + Zet + ", prune" + Zet + TextLaRez);
